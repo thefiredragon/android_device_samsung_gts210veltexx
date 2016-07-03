@@ -1,0 +1,6 @@
+[
+    {
+        "repository": "android_device_samsung_gts2ve-common",
+        "target_path": "device/samsung/gts2ve-common"
+    }
+]

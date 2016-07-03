@@ -1,0 +1,2 @@
+add_lunch_combo cm_gts210veltexx-eng
+add_lunch_combo cm_gts210veltexx-userdebug

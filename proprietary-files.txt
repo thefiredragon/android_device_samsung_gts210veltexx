@@ -1,0 +1,59 @@
+### GPS
+lib/hw/gps.default.so
+-app/com.qualcomm.location.apk
+bin/gsiff_daemon
+etc/permissions/com.qualcomm.location.xml
+lib/hw/flp.default.so
+lib/libloc_api_v02.so
+vendor/lib/libgeofence.so
+vendor/lib/libizat_core.so
+vendor/lib/liblbs_core.so
+vendor/lib/liblocationservice.so
+
+# Qualcomm framework
+vendor/lib/libdiag.so
+vendor/lib/libdsutils.so
+vendor/lib/libidl.so
+vendor/lib/libqcci_legacy.so
+vendor/lib/libqmi.so
+vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_client_qmux.so
+vendor/lib/libqmi_common_so.so
+vendor/lib/libqmi_csi.so
+vendor/lib/libqmi_encdec.so
+vendor/lib/libqmiservices.so
+
+# Radio
+bin/rild
+bin/rmt_storage
+lib/libreference-ril.so
+lib/libril.so
+lib/libsec-ril.so
+lib/libsecnativefeature.so
+lib/libsecril-client.so
+vendor/lib/libril-qcril-hook-oem.so
+
+
+### Mobicore
+app/mcRegistry/07050500000000000000000000000000.tlbin
+app/mcRegistry/07010000000000000000000000000000.tlbin
+
+### RIL
+bin/rild
+lib/libsec-ril.so
+
+### Wifi
+etc/wifi/p2p_supplicant_overlay.conf
+etc/wifi/WCNSS_qcom_sdio_cfg.ini
+etc/wifi/wpa_supplicant.conf
+etc/wifi/wpa_supplicant_overlay.conf
+etc/wifi/cred.conf
+etc/wifi/olsrd.conf
+
+### Bluetooth
+etc/bluetooth/av_performance.conf
+etc/bluetooth/bt_did.conf
+etc/bluetooth/bt_stack.conf
+etc/bluetooth/iop_bt.db
+etc/bluetooth/iop_device_list.conf
+etc/bluetooth/auto_pair_devlist.conf
